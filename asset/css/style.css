@@ -1,10 +1,27 @@
-body{color: red;}
-.center_holder{
-    background: #ebe9e9;
-    padding: 2rem;
-    margin:10rem auto;
-    width: 25rem;
-    text-align: center;
-    border-radius: .6rem;
-
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #cccccc;
 }
+
+.navigation {
+  width: 80%;
+  background: #ffffff;
+  margin: 0 auto;
+}
+
+.nav {
+  width: 100%;
+  justify-content: space-between;
+  margin: 2rem auto;
+  border-radius: 40px;
+  padding: 2rem 5rem;
+  display: flex;
+}
+.nav_item {
+  width: 45%;
+}
+.nav_img {
+  width: 22rem;
+}/*# sourceMappingURL=style.css.map */
